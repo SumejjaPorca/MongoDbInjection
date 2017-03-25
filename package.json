@@ -1,0 +1,27 @@
+{
+  "name": "mongodbinjection",
+  "version": "1.0.0",
+  "description": "Small project made for an article to use as an example on MongoDb injection attacks.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb",
+    "nodejs",
+    "security",
+    "injection",
+    "attacks"
+  ],
+  "author": "Sumejja Porca",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "moment": "^2.18.1",
+    "mongoose": "^4.9.1",
+    "morgan": "^1.8.1",
+    "password-hash": "^1.2.2",
+    "rand-token": "^0.3.0"
+  }
+}
